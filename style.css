@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+}
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; */
+    flex-direction: column;
+    /* background-image: url(https://hdqwalls.com/download/cyberpunk-2077-artistic-4k-pc-2560x1440.jpg); */
+    background-color: #27292c;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    
+    /* overflow: hidden; */
+
+    color: #000000;
+    /*  font-size: 70px;
+    text-shadow: 
+    -2px -2px 0 #1cf2f9,  
+    2px -2px 0 #1cf2f9,
+    -2px  2px 0 #1cf2f9,
+    2px  2px 0 #1cf2f9; /* Обводка вокруг текста */ 
+}
+
+/* button {
+    font-family: "Stick", sans-serif;
+    letter-spacing: 10px;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 30px;
+    color: aliceblue;
+    border: 0px solid #ffffff;
+    border-bottom: 4px solid aliceblue;
+    background-color: #81818100;
+}
+
+
+
+button:hover {
+    color: rgb(215, 134, 134);
+    cursor: pointer;
+    border-bottom: 4px solid rgb(215, 134, 134);
+    transition: 1s;
+}
+ */
+
+
+
+.ky {
+    position: fixed; /* Для перемещения элемента */
+    cursor: grab; /* Индикатор перетаскивания */
+}
+
+.ky:active {
+    cursor: grabbing; /* Индикатор при нажатии */
+}
+
+
+
+
+
+
+
+
+
+header {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+   /*  background-image: url(https://th.bing.com/th/id/OIP.C8hGY7GOsps-LijXWyvkDAHaLH?pid=ImgDet&w=474&h=711&rs=1); */
+    /* border: 1px solid #000; */
+}
+
+.search__city {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #000; */
+}
+.weather__inp {
+    width: 300px;
+    height: 50px;
+    border-radius: 17px; 
+    border: 0px solid #903535;
+    margin-bottom: 10px;
+    background-color: rgb(62, 63, 68);
+    color: #ffffff;
+    padding: 0 15px;
+    font-size: 15px;
+}
+.weather__inp:focus {
+    border: 0px solid #4da2d0;
+    outline: 0px;
+    background-color: rgb(67, 68, 74);
+    color: #ffffff;
+}
+.weather_button {
+    position: relative;
+    left: 140px;
+    bottom: 51px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 0px solid #afafaf;
+    cursor: pointer;
+    color: rgb(60, 60, 60);
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #ffffff;
+}
+.weather_button:hover {
+    background-color: #dadada;
+}
+
+.weather__result {
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+    margin: auto;
+    width: 80%;
+    border-radius: 15px;
+    background-color: rgb(62, 63, 68);
+    padding: 20px;
+    margin-top: -50px;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+h5 {
+    position: relative;
+    bottom: 65px;
+    font-size: 30px;
+}
+h4 {
+    position: relative;
+    bottom: 35px;
+    font-size: 50px;
+}
+h3 {
+    position: relative;
+    bottom: 20px;
+}
+
+.comm__cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.area {
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 17px; 
+    border: 0px solid #903535;
+    margin-bottom: 10px;
+    background-color: rgb(62, 63, 68);
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.area:focus {
+    border: 0px solid #4da2d0;
+    outline: 0px;
+    background-color: rgb(67, 68, 74);
+    color: #ffffff;
+}
+.inp {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 17px; 
+    border: 0px solid #903535;
+    margin-bottom: 10px;
+    background-color: rgb(62, 63, 68);
+    color: #ffffff;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+.inp:focus {
+    border: 0px solid #4da2d0;
+    outline: 0px;
+    background-color: rgb(67, 68, 74);
+    color: #ffffff;
+}
+.but {
+    border: 0px solid #afafaf;
+    cursor: pointer;
+    color: rgb(60, 60, 60);
+    font-weight: 600;
+    border-radius: 15px;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.comments-list {
+    border-bottom: 3px solid aliceblue;
+    /* color: aliceblue; */
+} 
+
